@@ -1,6 +1,6 @@
-#FPGA FFT SPECTRUM ANALYZER
+#FREQUENCY SPECTRUM ANALYSIS USING FFT
 
-FPGA FFT SPECTRUM ANALYZER is a basic audio processing tool. It can accept audio signal via Line-in 3,5mm Jack and analyze it. It also visualizes present frequencies on a Led matrix as a bar graph.
+FREQUENCY SPECTRUM ANALYSIS USING FFT is a basic audio processing tool. It can accept audio signal via Line-in 3,5mm Jack and analyze it. It also visualizes present frequencies on a Led matrix as a bar graph.
 
 Project is implemented in Verilog HDL hardware description language and was designed to be used on Altera DE1 development board equipped with an Altera Cyclone II FPGA core. It uses WM8731 audio controller for accepting. Audio analysis and modification is done using FFT algorithm. Time-domain audio signal is transformed into frequency-domain. Frequency-domain samples are used to generate visualization.
 
